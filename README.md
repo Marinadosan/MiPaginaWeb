@@ -9,9 +9,9 @@ Esta es la página que estoy haciendo en 2º de Bachillerato; estamos aprendiend
 -CSS
 -Javascript
 
-##HTML 
+## HTML 
 
-Usamos ##HTML para la estructura de las páginas web/ documentos.
+Usamos ## HTML para la estructura de las páginas web/ documentos.
 Usando comandos del estilo 
 
 ```html
@@ -22,11 +22,21 @@ Usando comandos del estilo
   </BODY>
 </HTML>
 ```
-/*holi*/
-  
-  
-  
-  
-  
-  
-  
+## CSS 
+Los comandos del tipo **CSS** nos permiten cambiar el aspecto de la página. Por ejemplo:
+```css
+body{
+background-color: black;
+color: white;
+}
+```
+
+## JavaScript
+
+**JavaScript** nos permite hacer que nuestras páginas cambien, que no sean un constante. Para que los usuarios puedan interactuar con ella.
+
+```javascript
+document.getElementByID('demo').innerHTML = "hola"
+```
+
+adios
